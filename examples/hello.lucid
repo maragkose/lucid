@@ -1,0 +1,7 @@
+# Hello World example
+
+function main() returns Int {
+    let message = "Hello, LUCID!"
+    print(message)
+    return 0
+}

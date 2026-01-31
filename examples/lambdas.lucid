@@ -1,0 +1,13 @@
+# Lambda expressions and higher-order functions
+
+function apply(f: Int, x: Int) returns Int {
+    let double = lambda n: n * 2
+    let triple = lambda n: n * 3
+    return double(x) + triple(x)
+}
+
+function main() returns Int {
+    let add_one = lambda x: x + 1
+    let value = add_one(41)
+    return value
+}

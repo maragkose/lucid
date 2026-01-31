@@ -1,0 +1,13 @@
+# Arithmetic operations
+
+function calculate(x: Int, y: Int) returns Int {
+    let sum = x + y
+    let product = x * y
+    let power = x ** 2
+    let result = (sum + product) * power
+    return result
+}
+
+function main() returns Int {
+    return calculate(5, 3)
+}

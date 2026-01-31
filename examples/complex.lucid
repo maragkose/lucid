@@ -1,0 +1,36 @@
+# Complex program with all features
+
+function factorial(n: Int) returns Int {
+    return if n <= 1 {
+        1
+    } else {
+        n * factorial(n - 1)
+    }
+}
+
+function map_list(nums: List[Int]) returns List[Int] {
+    let double = lambda x: x * 2
+    let result = []
+    return result
+}
+
+function main() returns Int {
+    let numbers: List[Int] = [1, 2, 3, 4, 5]
+    let (first, second) = (10, 20)
+
+    let fact5 = factorial(5)
+    let sum = first + second + fact5
+
+    let process = lambda x: {
+        let squared = x ** 2
+        return squared + 1
+    }
+
+    let value = if sum > 100 {
+        process(10)
+    } else {
+        process(5)
+    }
+
+    return value
+}

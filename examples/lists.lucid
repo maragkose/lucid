@@ -1,0 +1,14 @@
+# List and tuple operations
+
+function process_data(nums: List[Int]) returns Int {
+    let first = nums[0]
+    let second = nums[1]
+    let pair = (first, second)
+    let (a, b) = pair
+    return a + b
+}
+
+function main() returns Int {
+    let numbers = [1, 2, 3, 4, 5]
+    return process_data(numbers)
+}

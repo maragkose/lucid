@@ -1,0 +1,24 @@
+# Conditionals and lambdas example
+
+function max(a: Int, b: Int) returns Int {
+    if a > b {
+        return a
+    } else {
+        return b
+    }
+}
+
+function test_lambda() returns Int {
+    let double = lambda x: x * 2
+    let triple = lambda y: y * 3
+    
+    let result1 = double(21)
+    let result2 = triple(14)
+    
+    return max(result1, result2)
+}
+
+function main() returns Int {
+    let value = test_lambda()
+    return value
+}
