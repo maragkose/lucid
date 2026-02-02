@@ -1,6 +1,6 @@
 # LUCID
 
-A statically-typed, functional-first programming language with Python-inspired syntax, implemented in modern C++20.
+A statically-typed, functional-first programming language with Python-inspired syntax, implemented in modern C++20, implemented by AI.
 
 ## Features
 
